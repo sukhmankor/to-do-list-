@@ -1,0 +1,103 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+body{
+    background-color: rgb(143, 198, 242);
+}
+   
+h1{
+    text-align: center;
+    margin-top: .7cm;
+    text-decoration: underline;
+
+}
+.box{
+    margin-top: 20px;
+    margin-left: 10.2cm;
+    margin-right: 5cm;
+    position: relative;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    width: 40%;
+    height: 14.5cm;
+    background-color: rgb(224, 241, 255);
+
+
+}
+
+.inputfield{
+    margin-top: .25cm;
+    margin-left: 4cm;
+    width:80%;
+    padding: 5px;
+    }
+.type{
+    padding: 6px 12px;
+    margin-top: .7cm;
+    font-size: large;
+    height: 32px;
+    width: 70%;
+    margin-left: 1cm;
+}
+.butn{
+    margin-top: .9cm;
+    font-size: large;
+    height: 37px;
+    width:19%;
+    background-color:green;
+    color: rgb(238, 242, 246);
+    padding: 6px 12px;
+    
+}
+.butn:hover{
+    background-color: white;
+    color:green
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top: .7cm;
+}
+li{
+    
+    border-bottom: .25px solid rgb(21, 20, 20) ;
+    cursor: pointer;
+    padding: 6px 12px;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+li button:hover{
+    background-color:whitesmoke;
+    
+ }
+
+li.completed{
+    text-decoration: line-through;
+    color: rgb(128, 128, 135);
+}
+.complete{
+
+    color: blue;
+}
+.edit{
+    
+    color: green;
+}
+.delete{
+    color: red;
+}
+li button{
+    background: none;
+    border: none;
+    color: #888;
+    cursor: pointer;
+}
